@@ -17,7 +17,7 @@ env:
   FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX1805EX_11_OTA_0710_all_i3cdf6V7tk6F.ozip #edit link here...
   FIRMWARE_NAME: RMX1805EX_11_OTA_0710_all_i3cdf6V7tk6F.ozip  #edit file name here, you can find the name of file from link itself...
   FINAL_ZIP_NAME: rmx1805.zip #This will be the name of final zip which will be uploaded. You can leave it unchanged.
-  TZ: Asia/Kolkata
+  TZ: Asia/Manila
 
 jobs:
   build:
