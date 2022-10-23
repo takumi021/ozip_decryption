@@ -32,11 +32,10 @@ jobs:
             sudo apt update
             sudo apt upgrade
             sudo apt-get install build-essential
+            sudo apt install aria2
          
        - name: Downloading Ozip Now
          run: |
-            sudo -E apt-get -qq update
-            sudo apt install aria2
             aria2c $FIRMWARE_LINK
              
        - name: Decrypting Ozip Now
