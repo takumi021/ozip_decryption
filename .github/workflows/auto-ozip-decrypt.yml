@@ -31,6 +31,7 @@ jobs:
          run: |
             sudo apt update
             sudo apt upgrade
+            sudo apt-get install build-essential
          
        - name: Downloading Ozip Now
          run: |
