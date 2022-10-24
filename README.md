@@ -1,6 +1,6 @@
 # Ozip Decrypting online made easy #
 
-## What this is ##
+## What this is? ##
 ---------------------------------------------------------------------
 This is an easy way to decrypt Ozip ( Firmware of oppo/realme) to a TWRP Flashable Zip!!
 
@@ -10,7 +10,7 @@ This works with GitHub actions, thank GitHub not me : )
 
 Here are some useful notes to using this tool brewed with black magic xD !
 
-1. Fork the repo .
+1. Fork the repo.
 
 2. Set the variables, as listed below.
 
@@ -25,7 +25,7 @@ Here are some useful notes to using this tool brewed with black magic xD !
 4. Star the repo, go to actions tab again, and let Magic Work xD
 
 ## To Note ##
-The zip will be uploaded to bashupload. So it will be there for 15 days. So it's preferable to mirror somewhere else.
+The zip will be uploaded to bashupload. But it will be there for only 15 days. So it's preferable to mirror somewhere else.
 
 You can use some telegram bots to rename & mirror to gdrive. You can use my bot too.
 [My Telegram Group](https://t.me/SaurajGaming)
