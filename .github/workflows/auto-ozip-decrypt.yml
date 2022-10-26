@@ -72,3 +72,9 @@ jobs:
              echo "If you can't find your zip here, check the above ***UPLOAD*** section."
              cd out
              curl https://bashupload.com/ -T $FINAL_ZIP_NAME #file will be uploaded to bashupload, so mirror it if you are decrypting for community uses.
+       - name: Upload zip to GitHub
+         continue-on-error: true
+         run: |
+             git init
+             git add .
+             git commit -m "Upload decrypting zip"
