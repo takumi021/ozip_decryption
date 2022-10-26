@@ -51,6 +51,13 @@ jobs:
          run: |
              curl https://bashupload.com/ -T *.zip #file will be uploaded to bashupload, so mirror it if you are decrypting for community uses
 
+       - name: Upload zip to telegram
+         continue-on-error: 
+         run: |  
+             curl -F *.zip=@$1 "https://api.telegram.org/bot${bot_token}/sendDocument" \
+             -F chat_id="${chat_id}"  \
+             -F "disable_web_page_preview=true" \
+             -F "parse_mode=html" 
 
        - name: ziping decrypted file if needed.
          continue-on-error: true
